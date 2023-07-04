@@ -1,6 +1,8 @@
 import { useParams } from "react-router-dom";
 import styled from 'styled-components';
 
+
+
 let YellowBtn = styled.button`
 	background : ${ props => props.color };
 	color : ${ props =>props.color == 'blue' ? 'white' : 'black' };
